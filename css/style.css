@@ -29,7 +29,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
     padding: 0px 5%;
 }
@@ -40,7 +40,7 @@ nav ul{
 }
 
 nav ul li a{
-    margin: 30px;
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1a1a1a ;
     font-size: 15px;
@@ -510,6 +510,10 @@ span{
             width: auto;
             height: 400px;
             }
+    .about-text{
+        width: auto;
+        height: 220px;
+    }
 }
 
 
@@ -577,6 +581,7 @@ span{
     .box-img2,
     .box-img3{
         height: 300px;
+        margin-left: auto;
     }
     .box-img img{
     width: auto;
@@ -593,6 +598,7 @@ span{
                 border-radius: 100%;
                 height: 300px;
                 margin:0 23px;
+                display: none;
             }
             .servicios{
                 display: bloc;
@@ -622,7 +628,7 @@ span{
         height: 400px;
         width: 300px;
         font-size: 23px;
-        margin: 0 100px;
+        margin: 0px;
         display:grid;
         text-align: center;
         justify-content: center;
@@ -634,7 +640,7 @@ span{
         display: grid;
     }
     .img-container img{
-        height: 100px;
+        height: 180px;
     }
     .container-caja2,
     .container-cja1,.text-container{
@@ -642,19 +648,54 @@ span{
         align-items: center;
         text-align: center;
         display: grid;
-        width: 100%;
+        width: 99%;
     }
     .container-btn{
         justify-content: center;
     }
     .servicios-text{
-        height: 400px;
+        height: 260px;
         width: 300px;
         font-size: 23px;
-        margin: 0 50px;
-        display:grid;
+        
+        display:table-row;
         text-align: center;
         justify-content: center;
         align-items: center;
+        
     }
+    .about-text{
+
+            width: auto;
+            height: 220px;
+    }
+}
+@media (max-width:493px) {
+    .about-container{
+        width: auto;
+        height: 500px;
+    }
+    .about-container img {
+        margin-top: -125px;
+        height: 166px;
+        border-radius: 20px;
+    }
+    .about-text p:nth-child(1){
+        margin-top: -80px;
+    }
+    .about-container{
+        margin: 11px;
+    }
+    
+}
+@media (max-width:485px){
+    .img-container{
+        display: grid;
+}
+.about-text{
+    width: auto;
+    height: 120px;
+}
+.a-social-b{
+    right: -36px;
 }
