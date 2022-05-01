@@ -676,7 +676,7 @@ span{
         height: 500px;
     }
     .about-container img {
-        margin-top: -125px;
+        margin-top: -105px;
         height: 166px;
         border-radius: 20px;
     }
@@ -690,7 +690,7 @@ span{
 }
 @media (max-width:485px){
     .img-container{
-        display: grid;
+        display:flex;
 }
 .about-text{
     width: auto;
@@ -706,4 +706,16 @@ span{
 .container-h1--h2 h1 {
     margin-top: -46px;
 }
+}
+@media (max-width:388px) {
+   
+    .about-container {
+        margin: 6px
+    }
+}
+@media (max-width:372px) {
+   
+    .about-container {
+        margin: 1px
+    }
 }
